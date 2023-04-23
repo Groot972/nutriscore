@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+
+        <ImageView
+            android:id="@+id/product_url_image"
+            android:layout_marginTop="200dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_empty_saved" />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Vous n'avez encore rien scanné !"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Cliquez sur le bouton ci-dessous pour commencer."
+        android:layout_gravity="center"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/btn_cliquezici"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginTop="20dp"
+        android:text="SCANNEZ UN PRODUIT"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
