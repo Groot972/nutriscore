@@ -5,10 +5,65 @@ android:layout_height="wrap_content"
 android:orientation="vertical"
 android:background="?attr/selectableItemBackground" >
 
-<TextView
-    android:id="@+id/item_text"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="20dp" />
+    <ImageView
+        android:id="@+id/product_url_image"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder" />
 
+    <TextView
+        android:id="@+id/product_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/product_marque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/product_code_barre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:textSize="15sp" />
+    <!--
+    <ImageView
+        android:id="@+id/product_nutriscore"
+        android:layout_margin="2dp"
+        android:layout_width="78dp"
+        android:layout_height="42dp"/> -->
+    <TextView
+        android:id="@+id/product_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/product_pays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/product_ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/product_allergenes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/product_additifs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:textSize="15sp"/>
 </LinearLayout>

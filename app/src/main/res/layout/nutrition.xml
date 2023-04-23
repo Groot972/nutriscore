@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repères nutritionnels pour 100g"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:layout_margin="20dp"/>
+
+    <!-- Vue matiere grasse -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginEnd="120dp"
+        android:layout_margin="10dp">
+
+        <View
+            android:id="@+id/nutri_matiere_grasse_color"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rond"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nutri_matiere_grasse_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0,8g de Matières grasses / Lipides"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/nutri_matiere_grasse_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" en faible quantité"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <!-- Vue acides gras -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginEnd="120dp"
+        android:layout_margin="10dp">
+
+        <View
+            android:id="@+id/nutri_acides_gras_color"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rond"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nutri_acides_gras_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0,8g de Matières grasses / Lipides"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/nutri_acides_gras_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" en faible quantité"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <!-- Vue sucres -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginEnd="120dp"
+        android:layout_margin="10dp">
+
+        <View
+            android:id="@+id/nutri_sucres_color"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rond"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nutri_sucres_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0,8g de Matières grasses / Lipides"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/nutri_sucres_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" en faible quantité"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <!-- Vue sel -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginEnd="120dp"
+        android:layout_margin="10dp">
+
+        <View
+            android:id="@+id/nutri_sel_color"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rond"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nutri_sel_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0,8g de Matières grasses / Lipides"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/nutri_sel_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" en faible quantité"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
